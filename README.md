@@ -16,7 +16,7 @@ Please note, this is purely an outliner tool. It does not transfer the actual pa
 
 ## Installation Instructions
 
-1. Download the extension from [here](here).
+1. [Download the extension from here](https://github.com/InternetStarship/cf-membership-transfer/raw/main/cf-membership-transfer.zip).
 
 2. Open Google Chrome.
 
