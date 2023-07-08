@@ -123,9 +123,13 @@ const app = {
       button.addEventListener("click", app.buildTasks);
 
       const data = await cf_global.getLocalStorage("cfc_memberships");
-      const options = data.map((section, index) => {
-        return `<option value="${index}">${section.name}</option>`;
-      });
+      let options = null;
+      if (data) {
+        options = data.map((section, index) => {
+          return `<option value="${index}">${section.name}</option>`;
+        });
+      }
+
       const select = document.createElement("select");
       select.id = "cfc_import_select";
       select.classList.add("input", "input--search");
