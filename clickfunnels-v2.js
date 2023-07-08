@@ -89,8 +89,8 @@ const app = {
       });
 
       // todo: add lesson html tasks
-      // todo: publish each section and lesson
       // todo: handle drip days
+      // todo: publish each section and lesson
 
       app.determineNextTask();
     } else {
@@ -222,7 +222,6 @@ const app = {
         button.click();
 
         app.pollForElement("#courses\\/lesson_title", (input) => {
-          // todo: remove Lesson #(number) from name
           let lessonName = nextTask.data.name;
           lessonName = lessonName.replace(/Lesson #\d+: /, "");
           input.value = lessonName;
