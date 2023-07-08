@@ -1,5 +1,7 @@
 # CF Membership Outline Transfer
 
+[Watch Video Demo](https://www.youtube.com/watch?v=HyBDFIysjsk&ab_channel=WynterJones)
+
 CF Membership Outline Transfer is an open-source chrome extension designed to ease the transition between ClickFunnels Classic and ClickFunnels V2. This extension provides a simple and efficient method for transferring your Membership areas from ClickFunnels Classic to V2, by exporting the sections and lessons in an outline format.
 
 The extension adds an "Export Membership" button to ClickFunnels Classic, which allows you to export all the sections and lessons of any Membership area. The exported outlines can then be imported into ClickFunnels V2, where the extension will automatically create the course, sections (as modules), and lessons.
