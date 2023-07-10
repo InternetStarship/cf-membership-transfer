@@ -128,7 +128,7 @@ if (cfClassicCheck) {
                 ? secondsCompleteTimeInput.value
                 : null,
               release_date: releaseDateInput ? releaseDateInput.value : null,
-              html: html,
+              // html: html,
             });
           }
 
